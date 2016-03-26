@@ -44,7 +44,7 @@ public class UserTest {
     public void testUpdate() {
         System.out.println("update");
         User instance = null;
-        instance.update();
+        // instance.update();
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }
@@ -56,7 +56,7 @@ public class UserTest {
     public void testBuyCar() {
         System.out.println("buyCar");
         User instance = null;
-        instance.buyCar();
+        // instance.buyCar();
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }
@@ -68,7 +68,7 @@ public class UserTest {
     public void testUnsubscribe() {
         System.out.println("unsubscribe");
         User instance = null;
-        instance.unsubscribe();
+        // instance.unsubscribe();
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }
