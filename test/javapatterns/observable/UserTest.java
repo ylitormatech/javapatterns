@@ -62,6 +62,18 @@ public class UserTest {
     }
 
     /**
+     * Test of subscribe method, of class User.
+     */
+    @Test
+    public void testSubscribe() {
+        System.out.println("unsubscribe");
+        User instance = null;
+        // instance.unsubscribe();
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+    
+    /**
      * Test of unsubscribe method, of class User.
      */
     @Test
