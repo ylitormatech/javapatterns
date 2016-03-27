@@ -66,13 +66,56 @@ Classes:
 ## Iterator Design Pattern
 
 #### Purpose
-Iterator design pattern implements the logic for squential access of a collection of data outside of the collection (aka an aggregate) itself. This decouples the iteration logic from the collection implementation.
+Iterator design pattern implements the logic for sequential access of a collection of data outside of the collection (aka an aggregate) itself. This decouples the iteration logic from the collection implementation.
 Defining an abstract inferface for an iterator makes it possible to have multiple ways of iterating the same collection. Lets say we have a collection representing a binary tree. We can then have multiple concrete implementations of the same iterator abstraction accessing the elements in the tree using different traversal logic like in-order, pre-order and post-order. The binary tree collection remains the same but using iterator pattern we access it in multiple ways without altering and/or directly accessing the binary tree implementation itself.
 Scenarios in which Iterator Pattern can be used:
 
 1. Collections's internal implementation is to be hidden
 2. Multiple ways of traversing the collection are possible
 3. Iteration logic is decoupled from the collection's internal structure
+
+#### Usage
+
+#### Example
+
+## Mediator Design Pattern
+
+#### Purpose
+Mediator pattern is used to reduce communication complexity between multiple objects or classes.
+This pattern provides a mediator class which normally handles all the communications between different classes and supports easy maintenance of the code by loose coupling.
+#### Usage
+
+#### Example
+We are demonstrating mediator pattern by example of a chat room where multiple users can send message to chat room and it is the responsibility of chat room to show the messages to all users. We have created two classes ChatRoom and User. User objects will use ChatRoom method to share their messages.
+
+MediatorPatternDemo, our demo class, will use User objects to show communication between them.
+
+## Composite Design Pattern
+
+#### Purpose
+Composite pattern is used where we need to treat a group of objects in similar way as a single object. Composite pattern composes objects in term of a tree structure to represent part as well as whole hierarchy. This type of design pattern comes under structural pattern as this pattern creates a tree structure of group of objects.
+
+This pattern creates a class that contains group of its own objects. This class provides ways to modify its group of same objects.
+
+#### Usage
+
+#### Example
+
+## Visitor Design Pattern
+
+#### Purpose
+In Visitor pattern, we use a visitor class which changes the executing algorithm of an element class. By this way, execution algorithm of element can vary as and when visitor varies. This pattern comes under behavior pattern category. As per the pattern, element object has to accept the visitor object so that visitor object handles the operation on the element object.
+
+#### Usage
+
+#### Example
+
+## Builder Design Pattern
+
+#### Purpose
+Builder pattern builds a complex object using simple objects and using a step by step approach. This type of design pattern comes under creational pattern as this pattern provides one of the best ways to create an object.
+
+A Builder class builds the final object step by step. This builder is independent of other objects.
 
 #### Usage
 
