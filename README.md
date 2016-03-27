@@ -47,8 +47,10 @@ State changes in one or more objects should trigger behaviour in other objects
 Broadcasting capabilities are required
 An understanding exists that objects will be blind to the expense of notification
 #### Example
-This pattern can be found in almost every GUI environment. When buttons, text, and other fields are place in applications the application typically registers as listener for those controls.
-When a user triggers an event, such as clicking a button, the control iterates through its registered observers and sends notification to each.
+```This pattern can be found in almost every GUI environment. When buttons, text, and other fields are place in applications the application typically registers as listener for those controls.
+When a user triggers an event, such as clicking a button, the control iterates through its registered observers and sends notification to each.```
+
+Classes
 
 
 
