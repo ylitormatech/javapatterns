@@ -41,7 +41,11 @@ Demo of Java design patterns including testing patterns
 ## Observable pattern
 
 #### Purpose
-Lets one or more object be notified of state changes in other objects within the system
+The observer pattern defines a one-to-many dependency between objects so that when one object changes state, all of its dependents are notified and updated automatically.
+The object which is being watched is called _subject_. The ojects which are watching the state changes are called _observers_ or _listeners_.
+The observer pattern allows for the _Open Closed_ principle. This principle states that a class should be open for extensions without the need to change the class.
+Using the observer pattern a subject can register an unlimited number of observers. If a listener wants to register with the subject, no code change in the subject is necessary.
+Using listener pattern decouples the subject form its observers. Only the observers have direct knowledge about the subject.
 #### Usage
 State changes in one or more objects should trigger behaviour in other objects
 Broadcasting capabilities are required
