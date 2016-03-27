@@ -10,6 +10,8 @@ package javapatterns.observable;
  * @author marco
  */
 import java.util.ArrayList;
+import static java.util.Collections.list;
+import java.util.Iterator;
 
 public class BlueCar implements Observable {
     
@@ -28,9 +30,14 @@ public class BlueCar implements Observable {
     
     @Override
     public void notifyObserver() {
-        for(Observer user :users) {
-            user.update();
-        }
+//        for(Observer user :users) {
+//            user.update();
+//        }
+          for(Iterator<Observer> iterator = users.iterator(); iterator.hasNext();) {
+              Observer user = iterator.next();
+              user.update();
+              iterator.remove();
+          }
     }
     
     @Override
