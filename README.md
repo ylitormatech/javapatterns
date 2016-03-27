@@ -69,6 +69,7 @@ Classes:
 Iterator design pattern implements the logic for squential access of a collection of data outside of the collection (aka an aggregate) itself. This decouples the iteration logic from the collection implementation.
 Defining an abstract inferface for an iterator makes it possible to have multiple ways of iterating the same collection. Lets say we have a collection representing a binary tree. We can then have multiple concrete implementations of the same iterator abstraction accessing the elements in the tree using different traversal logic like in-order, pre-order and post-order. The binary tree collection remains the same but using iterator pattern we access it in multiple ways without altering and/or directly accessing the binary tree implementation itself.
 Scenarios in which Iterator Pattern can be used:
+
 1. Collections's internal implementation is to be hidden
 2. Multiple ways of traversing the collection are possible
 3. Iteration logic is decoupled from the collection's internal structure
