@@ -6,7 +6,7 @@ Demo of Java design patterns including testing patterns
 **Behavioral patterns**:
 
 * [x] **Observer**
-* [ ] **Iterator** _-waiting implementation-_
+* [ ] **Iterator** _-in progress-_
 * [ ] **Mediator** _-waiting implementation-_
 * [ ] **Visitor** _-waiting implementation-_
 * [ ] Chain of Responsibility _-waiting priority-_
