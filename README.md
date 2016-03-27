@@ -3,12 +3,12 @@
 
 Demo of Java design patterns including testing patterns
 
-__Behavioral patterns__:
+**Behavioral patterns**:
 
 * [x] **Observer**
-* [ ] Iterator _-waiting implementation-_
-* [ ] Mediator
-* [ ] Visitor
+* [ ] **Iterator** _-waiting implementation-_
+* [ ] **Mediator** _-waiting implementation-_
+* [ ] **Visitor** _-waiting implementation-_
 * [ ] Chain of Responsibility
 * [ ] Command
 * [ ] Interpreter
@@ -17,17 +17,17 @@ __Behavioral patterns__:
 * [ ] Strategy
 * [ ] Template Method
 
-__Creational patterns__:
+**Creational patterns**:
 
-* [ ] Builder
+* [ ] **Builder** _-waiting implementation-_
 * [ ] Abstract Factory
 * [ ] Factory Method
 * [ ] Prototype
 * [ ] Singleton
 
-__Structural patterns__:
+**Structural patterns**:
 
-* [ ] Composite
+* [ ] **Composite** _-waiting implementation-_
 * [ ] Adapter
 * [ ] Bridge
 * [ ] Decorator
