@@ -1,44 +1,45 @@
-javapatterns
-============
+# javapatterns
+
 
 Demo of Java design patterns including testing patterns
 
-Creational patterns:
+__Behavioral patterns__:
 
-* Abstract Factory
-* Builder
-* Factory Method
-* Prototype
-* Singleton
+* [x] **Observer**
+* [ ] Iterator _-waiting implementation-_
+* [ ] Mediator
+* [ ] Visitor
+* [ ] Chain of Responsibility
+* [ ] Command
+* [ ] Interpreter
+* [ ] Memento
+* [ ] State
+* [ ] Strategy
+* [ ] Template Method
+
+__Creational patterns__:
+
+* [ ] Builder
+* [ ] Abstract Factory
+* [ ] Factory Method
+* [ ] Prototype
+* [ ] Singleton
+
+__Structural patterns__:
+
+* [ ] Composite
+* [ ] Adapter
+* [ ] Bridge
+* [ ] Decorator
+* [ ] Facade
+* [ ] Flyweight
+* [ ] Proxy
 
 
-Structural patterns:
-
-* Adapter
-* Bridge
-* Composite
-* Decorator
-* Facade
-* Flyweight
-* Proxy
-
-Behavioral patterns:
-
-* Chain of Responsibility
-* Command
-* Interpreter
-* Iterator
-* Mediator
-* Memento
-* Observer
-* State
-* Strategy
-* Template Method
-* Visitor
 
 
-Observable pattern
-------------------
+## Observable pattern
+
 
 
 
