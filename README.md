@@ -9,31 +9,31 @@ Demo of Java design patterns including testing patterns
 * [ ] **Iterator** _-waiting implementation-_
 * [ ] **Mediator** _-waiting implementation-_
 * [ ] **Visitor** _-waiting implementation-_
-* [ ] Chain of Responsibility _-waiting priority_
-* [ ] Command _-waiting priority_
-* [ ] Interpreter _-waiting priority_
-* [ ] Memento _-waiting priority_
-* [ ] State _-waiting priority_
-* [ ] Strategy _-waiting priority_
-* [ ] Template Method _-waiting priority_
+* [ ] Chain of Responsibility _-waiting priority-_
+* [ ] Command _-waiting priority-_
+* [ ] Interpreter _-waiting priority-_
+* [ ] Memento _-waiting priority-_
+* [ ] State _-waiting priority-_
+* [ ] Strategy _-waiting priority-_
+* [ ] Template Method _-waiting priority-_
 
 **Creational patterns**:
 
 * [ ] **Builder** _-waiting implementation-_
-* [ ] Abstract Factory _-waiting priority_
-* [ ] Factory Method _-waiting priority_
-* [ ] Prototype _-waiting priority_
-* [ ] Singleton _-waiting priority_
+* [ ] Abstract Factory _-waiting priority-_
+* [ ] Factory Method _-waiting priority-_
+* [ ] Prototype _-waiting priority-_
+* [ ] Singleton _-waiting priority-_
 
 **Structural patterns**:
 
 * [ ] **Composite** _-waiting implementation-_
-* [ ] Adapter _-waiting priority_
-* [ ] Bridge _-waiting priority_
-* [ ] Decorator _-waiting priority_
-* [ ] Facade _-waiting priority_
-* [ ] Flyweight _-waiting priority_
-* [ ] Proxy _-waiting priority_
+* [ ] Adapter _-waiting priority-_
+* [ ] Bridge _-waiting priority-_
+* [ ] Decorator _-waiting priority-_
+* [ ] Facade _-waiting priority-_
+* [ ] Flyweight _-waiting priority-_
+* [ ] Proxy _-waiting priority-_
 
 
 
