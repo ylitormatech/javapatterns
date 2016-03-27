@@ -28,9 +28,6 @@ public class User implements Observer {
         System.out.println("Ostin uuden auton");
     }
     
-    public void subscribe() {
-        observable.addObserver(this);
-    }
     public void unsubscribe() {
         observable.removeObserver(this);
     }
