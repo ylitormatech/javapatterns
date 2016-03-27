@@ -63,7 +63,5 @@ Classes:
   * implements Observer inferface
   * This class is notified when BlueCar state is changing
 
-#### Testing observable pattern
-
 
 
