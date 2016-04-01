@@ -30,9 +30,9 @@ public class Meal {
    public void showItems(){
    
       for (Item item : items) {
-         System.out.print("Item : " + item.name());
-         System.out.print(", Packing : " + item.packing().pack());
-         System.out.println(", Price : " + item.price());
+         System.out.print("Nimike : " + item.name());
+         System.out.print(", Paketointi : " + item.packing().pack());
+         System.out.println(", Hinta : " + item.price());
       }		
    }	
 }

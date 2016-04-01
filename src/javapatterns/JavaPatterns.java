@@ -5,6 +5,8 @@
  */
 package javapatterns;
 
+import javapatterns.observable.ObservablePatternDemo;
+
 /**
  *
  * @author marco
@@ -15,7 +17,7 @@ public class JavaPatterns {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        new ObservablePatternDemo();
     }
     
 }

@@ -14,7 +14,7 @@ public class MediatorPatternDemo {
       User dali = new User("Dali");
       User pablo = new User("Pablo");
 
-      dali.sendMessage("Hi! Pablo!");
-      pablo.sendMessage("Hi! Dali!");
+      dali.sendMessage("Moi! Pablo!");
+      pablo.sendMessage("Moi! Dali!");
    }
 }

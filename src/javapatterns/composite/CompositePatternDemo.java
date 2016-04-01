@@ -12,17 +12,17 @@ package javapatterns.composite;
 public class CompositePatternDemo {
     public static void main(String[] args) {
    
-      Employee CEO = new Employee("John","CEO", 30000);
+      Employee CEO = new Employee("Marco","Toimitusjohtaja", 50000);
 
-      Employee headSales = new Employee("Robert","Head Sales", 20000);
+      Employee headSales = new Employee("Rami","Myyntijohtaja", 40000);
 
-      Employee headMarketing = new Employee("Michel","Head Marketing", 20000);
+      Employee headMarketing = new Employee("Mika","Markkinointijohtaja", 30000);
 
-      Employee clerk1 = new Employee("Laura","Marketing", 10000);
-      Employee clerk2 = new Employee("Bob","Marketing", 10000);
+      Employee clerk1 = new Employee("Liisa","Markkinointassistentti", 20000);
+      Employee clerk2 = new Employee("Petri","Markkinointassistentti", 20000);
 
-      Employee salesExecutive1 = new Employee("Richard","Sales", 10000);
-      Employee salesExecutive2 = new Employee("Rob","Sales", 10000);
+      Employee salesExecutive1 = new Employee("Risto","Myynti", 25000);
+      Employee salesExecutive2 = new Employee("Raija","Myynti", 25000);
 
       CEO.add(headSales);
       CEO.add(headMarketing);

@@ -23,9 +23,7 @@ public class BlueCarTest {
         instance.addObserver(o);
         Thread.sleep(1000);
     }
-    
-    
-    
+
     /**
      * Test of isInStock method, of class BlueCar.
      */

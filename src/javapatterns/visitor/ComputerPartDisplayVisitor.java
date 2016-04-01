@@ -13,21 +13,21 @@ public class ComputerPartDisplayVisitor implements ComputerPartVisitor {
     
    @Override
    public void visit(Computer computer) {
-      System.out.println("Displaying Computer.");
+      System.out.println("Näytetään tietokone.");
    }
 
    @Override
    public void visit(Mouse mouse) {
-      System.out.println("Displaying Mouse.");
+      System.out.println("Näytetään hiiri.");
    }
 
    @Override
    public void visit(Keyboard keyboard) {
-      System.out.println("Displaying Keyboard.");
+      System.out.println("Näytetään näppäimistö.");
    }
 
    @Override
    public void visit(Monitor monitor) {
-      System.out.println("Displaying Monitor.");
+      System.out.println("Näytetään monitori.");
    }
 }

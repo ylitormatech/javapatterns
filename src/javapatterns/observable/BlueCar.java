@@ -15,7 +15,7 @@ import java.util.Iterator;
 public class BlueCar implements Observable {
     
     private ArrayList<Observer> users = new ArrayList<Observer>();
-    private boolean inStock = true;
+    private boolean inStock = false;
     
     public boolean isInStock() {
         return inStock;

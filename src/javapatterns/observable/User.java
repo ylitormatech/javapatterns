@@ -14,6 +14,7 @@ public class User implements Observer {
     
     public User(Observable observable) {
         this.observable = observable;
+        observable.addObserver(this);
     }
     
     @Override
@@ -22,7 +23,7 @@ public class User implements Observer {
     }
     
     public void buyCar() {
-        System.out.println("Ostin uuden auton");
+        System.out.println("Tarkkailija sai tiedon auton saapumisesta varastoon.");
     }
     
     public void unsubscribe() {

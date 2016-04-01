@@ -38,6 +38,6 @@ public class Employee {
    }
 
    public String toString(){
-      return ("Employee :[ Name : " + name + ", dept : " + dept + ", salary :" + salary+" ]");
+      return ("Työntekijä :[ Nimi : " + name + ", osasto : " + dept + ", palkka :" + salary+" ]");
    }   
 }
