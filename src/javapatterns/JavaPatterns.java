@@ -5,7 +5,12 @@
  */
 package javapatterns;
 
-import javapatterns.observable.ObservablePatternDemo;
+import javapatterns.behavioral.builder.BuilderPatternDemo;
+import javapatterns.structural.composite.CompositePatternDemo;
+import javapatterns.creational.iterator.IteratorPatternDemo;
+import javapatterns.creational.mediator.MediatorPatternDemo;
+import javapatterns.creational.observable.ObservablePatternDemo;
+import javapatterns.creational.visitor.VisitorPatternDemo;
 
 /**
  *
@@ -17,7 +22,12 @@ public class JavaPatterns {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        new BuilderPatternDemo();
+        new CompositePatternDemo();
+        new IteratorPatternDemo();
+        new MediatorPatternDemo();
         new ObservablePatternDemo();
+        new VisitorPatternDemo();
     }
     
 }

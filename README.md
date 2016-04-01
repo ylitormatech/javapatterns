@@ -6,9 +6,9 @@ Demo of Java design patterns including testing patterns
 **Behavioral patterns**:
 
 * [x] **Observer**
-* [ ] **Iterator** _-in progress-_
-* [ ] **Mediator** _-waiting implementation-_
-* [ ] **Visitor** _-waiting implementation-_
+* [x] **Iterator**
+* [x] **Mediator**
+* [x] **Visitor**
 * [ ] Chain of Responsibility _-waiting priority-_
 * [ ] Command _-waiting priority-_
 * [ ] Interpreter _-waiting priority-_
@@ -19,7 +19,7 @@ Demo of Java design patterns including testing patterns
 
 **Creational patterns**:
 
-* [ ] **Builder** _-waiting implementation-_
+* [x] **Builder**
 * [ ] Abstract Factory _-waiting priority-_
 * [ ] Factory Method _-waiting priority-_
 * [ ] Prototype _-waiting priority-_
@@ -27,7 +27,7 @@ Demo of Java design patterns including testing patterns
 
 **Structural patterns**:
 
-* [ ] **Composite** _-waiting implementation-_
+* [x] **Composite**
 * [ ] Adapter _-waiting priority-_
 * [ ] Bridge _-waiting priority-_
 * [ ] Decorator _-waiting priority-_
