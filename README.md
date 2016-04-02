@@ -37,6 +37,7 @@ Demo of Java design patterns including testing patterns
 
 
 
+# Behavioral patterns
 
 ## Observable Design Pattern
 
@@ -48,8 +49,7 @@ Using the observer pattern a subject can register an unlimited number of observe
 Using listener pattern decouples the subject form its observers. Only the observers have direct knowledge about the subject.
 #### Usage
 State changes in one or more objects should trigger behaviour in other objects
-Broadcasting capabilities are required
-An understanding exists that objects will be blind to the expense of notification
+Broadcasting capabilities are required.
 #### Example
 This pattern can be found in almost every GUI environment. When buttons, text, and other fields are place in applications the application typically registers as listener for those controls.
 When a user triggers an event, such as clicking a button, the control iterates through its registered observers and sends notification to each.
@@ -57,17 +57,17 @@ When a user triggers an event, such as clicking a button, the control iterates t
 Classes:
 
 * BlueCar
-  * implements Observable inferface
-  * This class will notify subscibers (observers) when it status inStock is changing
+  * implements Observable interface
+  * This class will notify subscribers (observers) when it status inStock is changing
 * User
-  * implements Observer inferface
+  * implements Observer interface
   * This class is notified when BlueCar state is changing
 
 ## Iterator Design Pattern
 
 #### Purpose
 Iterator design pattern implements the logic for sequential access of a collection of data outside of the collection (aka an aggregate) itself. This decouples the iteration logic from the collection implementation.
-Defining an abstract inferface for an iterator makes it possible to have multiple ways of iterating the same collection. Lets say we have a collection representing a binary tree. We can then have multiple concrete implementations of the same iterator abstraction accessing the elements in the tree using different traversal logic like in-order, pre-order and post-order. The binary tree collection remains the same but using iterator pattern we access it in multiple ways without altering and/or directly accessing the binary tree implementation itself.
+Defining an abstract interface for an iterator makes it possible to have multiple ways of iterating the same collection. Lets say we have a collection representing a binary tree. We can then have multiple concrete implementations of the same iterator abstraction accessing the elements in the tree using different traversal logic like in-order, pre-order and post-order. The binary tree collection remains the same but using iterator pattern we access it in multiple ways without altering and/or directly accessing the binary tree implementation itself.
 Scenarios in which Iterator Pattern can be used:
 
 1. Collections's internal implementation is to be hidden
@@ -76,7 +76,12 @@ Scenarios in which Iterator Pattern can be used:
 
 #### Usage
 
+* Multiple or concurrent traversals of the elements are needed, e.g. avoiding ConcurrentModificationException when removing items during traversal
+* Access to elements is needed without access to the entire presentation
+
 #### Example
+Creating simple list of names and printing them one by one.
+
 
 ## Mediator Design Pattern
 
@@ -85,10 +90,23 @@ Mediator pattern is used to reduce communication complexity between multiple obj
 This pattern provides a mediator class which normally handles all the communications between different classes and supports easy maintenance of the code by loose coupling.
 #### Usage
 
-#### Example
-We are demonstrating mediator pattern by example of a chat room where multiple users can send message to chat room and it is the responsibility of chat room to show the messages to all users. We have created two classes ChatRoom and User. User objects will use ChatRoom method to share their messages.
+* Communication between sets of objects is well defined and complex
+* Too many relationships exist and common point of control or communication is needed
 
-MediatorPatternDemo, our demo class, will use User objects to show communication between them.
+#### Example
+Demonstrating mediator pattern by example of a chat room where multiple users can send message to chat room and it is the responsibility of chat room to show the messages to all users. We have created two classes ChatRoom and User. User objects will use ChatRoom method to share their messages.
+
+MediatorPatternDemo will use User objects to show communication between them.
+
+## Visitor Design Pattern
+
+#### Purpose
+In Visitor pattern, we use a visitor class which changes the executing algorithm of an element class. By this way, execution algorithm of element can vary as and when visitor varies. This pattern comes under behavior pattern category. As per the pattern, element object has to accept the visitor object so that visitor object handles the operation on the element object.
+
+#### Usage
+
+#### Example
+
 
 ## Composite Design Pattern
 
@@ -101,14 +119,7 @@ This pattern creates a class that contains group of its own objects. This class 
 
 #### Example
 
-## Visitor Design Pattern
-
-#### Purpose
-In Visitor pattern, we use a visitor class which changes the executing algorithm of an element class. By this way, execution algorithm of element can vary as and when visitor varies. This pattern comes under behavior pattern category. As per the pattern, element object has to accept the visitor object so that visitor object handles the operation on the element object.
-
-#### Usage
-
-#### Example
+# Creational patterns
 
 ## Builder Design Pattern
 
