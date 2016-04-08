@@ -1,4 +1,4 @@
-package javapatterns.creational.state;
+package javapatterns.behavioral.state;
 
 /**
  * Created by marco on 02/04/16.
