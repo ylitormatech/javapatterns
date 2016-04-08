@@ -16,8 +16,7 @@ import org.junit.Before;
 public class BlueCarTest {
     BlueCar instance = new BlueCar();
     User o = new User(instance);
-    
-    
+
     @Before
     public void setUp() throws InterruptedException{
         instance.addObserver(o);
@@ -46,9 +45,7 @@ public class BlueCarTest {
         instance.setInStock(inStock);
  
     }
-    
- 
-    
+
     /**
      * Test of notifyObserver method with observers, of class BlueCar.
      */
@@ -57,7 +54,6 @@ public class BlueCarTest {
         System.out.println("notifyObserver");
         instance.notifyObserver();
     }
-    
 
     /**
      * Test of addObserver method, of class BlueCar.
