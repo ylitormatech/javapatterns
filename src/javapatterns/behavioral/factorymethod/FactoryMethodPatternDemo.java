@@ -17,4 +17,6 @@ public class FactoryMethodPatternDemo {
         new FactoryMethodPatternDemo();
     }
 
+
+
 }

@@ -9,11 +9,11 @@ Demo of Java design patterns including testing patterns
 * [x] **Iterator**
 * [x] **Mediator**
 * [x] **Visitor**
+* [ ] State _-in progress-_
 * [ ] Chain of Responsibility _-waiting priority-_
 * [ ] Command _-waiting priority-_
 * [ ] Interpreter _-waiting priority-_
 * [ ] Memento _-waiting priority-_
-* [ ] State _-waiting priority-_
 * [ ] Strategy _-waiting priority-_
 * [ ] Template Method _-waiting priority-_
 
