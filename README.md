@@ -9,7 +9,7 @@ Demo of Java design patterns including testing patterns
 * [x] **Iterator**
 * [x] **Mediator**
 * [x] **Visitor**
-* [ ] State _-in progress-_
+* [x] **State**
 * [ ] Chain of Responsibility _-waiting priority-_
 * [ ] Command _-waiting priority-_
 * [ ] Interpreter _-waiting priority-_
@@ -90,6 +90,19 @@ We are demonstrating mediator pattern by example of a chat room where multiple u
 
 MediatorPatternDemo, our demo class, will use User objects to show communication between them.
 
+## State Design Pattern
+
+#### Purpose
+Ties object circumstances to its behavior, allowing the object to behave in different ways based upon its internal state.
+
+#### Usage
+
+* The behavior of an object should be influenced by its state.
+* Complex conditions tie object behavior to its state.
+* Transitions between states need to be explicit.
+
+#### Example
+
 ## Composite Design Pattern
 
 #### Purpose
@@ -120,4 +133,5 @@ A Builder class builds the final object step by step. This builder is independen
 #### Usage
 
 #### Example
+
 

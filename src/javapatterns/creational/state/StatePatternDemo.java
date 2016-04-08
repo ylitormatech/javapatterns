@@ -7,8 +7,17 @@ public class StatePatternDemo {
 
     public StatePatternDemo() {
         System.out.println("\n### State Pattern demo\n");
-        System.out.println("NOT IMPLEMENTED!!!");
+        Context context = new Context();
 
+        StartState startState = new StartState();
+        startState.doAction(context);
+
+        System.out.println(context.getState().toString());
+
+        StopState stopState = new StopState();
+        stopState.doAction(context);
+
+        System.out.println(context.getState().toString());
         System.out.println("\n### \n");
 
     }
@@ -16,5 +25,6 @@ public class StatePatternDemo {
     public static void main(String[] args) {
         new StatePatternDemo();
     }
+
 
 }
