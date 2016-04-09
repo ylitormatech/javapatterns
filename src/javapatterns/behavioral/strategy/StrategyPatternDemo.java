@@ -7,7 +7,14 @@ public class StrategyPatternDemo {
 
     public StrategyPatternDemo() {
         System.out.println("\n### Strategy Pattern demo\n");
-        System.out.println("NOT IMPLEMENTED!!!");
+        Context context = new Context(new OperationAdd());
+        System.out.println("20 + 6 = " + context.executeStrategy(20, 6));
+
+        context = new Context(new OperationSubstract());
+        System.out.println("20 - 6 = " + context.executeStrategy(20, 6));
+
+        context = new Context(new OperationMultiply());
+        System.out.println("20 * 6 = " + context.executeStrategy(20, 6));
 
         System.out.println("\n### \n");
 

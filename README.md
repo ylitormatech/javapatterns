@@ -14,7 +14,7 @@ Demo of Java design patterns including testing patterns
 * [x] **Command**
 * [x] **Interpreter**
 * [x] **Memento**
-* [ ] Strategy _-in progress-_
+* [x] **Strategy**
 * [ ] Template Method _-waiting priority-_
 
 **Creational patterns**:
@@ -140,6 +140,19 @@ Allows for capturing and externalizing an object’s internal state so that it c
 * The internal state of an object must be saved and restored at a later time.
 * Internal state cannot be exposed by interfaces without exposing implementation.
 * Encapsulation boundaries must be preserved.
+
+## Strategy Design Pattern
+
+#### Purpose
+Defines a set of encapsulated algorithms that can be swapped to carry out a specific behavior.
+
+#### Usage
+
+* The only difference between many related classes is their behavior.
+* Multiple versions or variations of an algorithm are required.
+* Algorithms access or utilize data that calling code shouldn’t be exposed to.
+* The behavior of a class should be defined at runtime.
+* Conditional statements are complex and hard to maintain.
 
 ## Composite Design Pattern
 
