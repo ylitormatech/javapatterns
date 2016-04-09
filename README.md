@@ -20,10 +20,11 @@ Demo of Java design patterns including testing patterns
 **Creational patterns**:
 
 * [x] **Builder**
+* [ ] Singleton _-in progress-_
 * [ ] Abstract Factory _-waiting priority-_
 * [ ] Factory Method _-waiting priority-_
 * [ ] Prototype _-waiting priority-_
-* [ ] Singleton _-waiting priority-_
+
 
 **Structural patterns**:
 
