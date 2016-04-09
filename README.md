@@ -20,7 +20,7 @@ Demo of Java design patterns including testing patterns
 **Creational patterns**:
 
 * [x] **Builder**
-* [ ] Singleton _-in progress-_
+* [x] **Singleton**
 * [ ] Abstract Factory _-waiting priority-_
 * [ ] Factory Method _-waiting priority-_
 * [ ] Prototype _-waiting priority-_
@@ -51,18 +51,6 @@ Using listener pattern decouples the subject form its observers. Only the observ
 State changes in one or more objects should trigger behaviour in other objects
 Broadcasting capabilities are required
 An understanding exists that objects will be blind to the expense of notification
-#### Example
-This pattern can be found in almost every GUI environment. When buttons, text, and other fields are place in applications the application typically registers as listener for those controls.
-When a user triggers an event, such as clicking a button, the control iterates through its registered observers and sends notification to each.
-
-Classes:
-
-* BlueCar
-  * implements Observable inferface
-  * This class will notify subscibers (observers) when it status inStock is changing
-* User
-  * implements Observer inferface
-  * This class is notified when BlueCar state is changing
 
 ## Iterator Design Pattern
 
@@ -77,7 +65,6 @@ Scenarios in which Iterator Pattern can be used:
 
 #### Usage
 
-#### Example
 
 ## Mediator Design Pattern
 
@@ -86,10 +73,6 @@ Mediator pattern is used to reduce communication complexity between multiple obj
 This pattern provides a mediator class which normally handles all the communications between different classes and supports easy maintenance of the code by loose coupling.
 #### Usage
 
-#### Example
-We are demonstrating mediator pattern by example of a chat room where multiple users can send message to chat room and it is the responsibility of chat room to show the messages to all users. We have created two classes ChatRoom and User. User objects will use ChatRoom method to share their messages.
-
-MediatorPatternDemo, our demo class, will use User objects to show communication between them.
 
 ## Visitor Design Pattern
 
@@ -98,7 +81,6 @@ In Visitor pattern, we use a visitor class which changes the executing algorithm
 
 #### Usage
 
-#### Example
 
 ## State Design Pattern
 
@@ -111,7 +93,6 @@ Ties object circumstances to its behavior, allowing the object to behave in diff
 * Complex conditions tie object behavior to its state.
 * Transitions between states need to be explicit.
 
-#### Example
 
 ## Composite Design Pattern
 
@@ -122,7 +103,6 @@ This pattern creates a class that contains group of its own objects. This class 
 
 #### Usage
 
-#### Example
 
 
 # Creational Patterns
@@ -136,7 +116,15 @@ A Builder class builds the final object step by step. This builder is independen
 
 #### Usage
 
-#### Example
+
+## Singleton Design Pattern
+
+#### Purpose
+Ensures that only one instance of a class is allowed within a system.
+#### Usage
+* Exactly one instance of a class is required.
+* Controlled access to a single object is necessary.
+
 
 # Structural Patterns
 
