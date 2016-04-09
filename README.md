@@ -31,7 +31,7 @@ Demo of Java design patterns including testing patterns
 * [x] **Composite**
 * [x] **Adapter**
 * [x] **Bridge**
-* [ ] Decorator _-in progress-_
+* [x] **Decorator**
 * [ ] Facade _-waiting priority-_
 * [ ] Flyweight _-waiting priority-_
 * [ ] Proxy _-waiting priority-_
@@ -260,8 +260,14 @@ Defines an abstract object structure independently of the implementation object 
 ## Decorator Design Pattern
 
 #### Purpose
-
+Allows for the dynamic wrapping of objects in order to modify their existing responsibilities and behaviors.
 #### Usage
+
+* Object responsibilities and behaviors should be dynamically modifiable.
+* Concrete implementations should be decoupled from responsibilities and behaviors.
+* Subclassing to achieve modification is impractical or impossible.
+* Specific functionality should not reside high in the object hierarchy.
+* A lot of little objects surrounding a concrete implementation is acceptable.
 
 ## Facade Design Pattern
 
