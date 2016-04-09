@@ -34,7 +34,7 @@ Demo of Java design patterns including testing patterns
 * [x] **Decorator**
 * [x] **Facade**
 * [x] **Flyweight**
-* [ ] Proxy _-waiting priority-_
+* [ ] Proxy _-in progress-_
 
 
 # Behavioral Patterns
