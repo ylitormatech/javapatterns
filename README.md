@@ -10,7 +10,7 @@ Demo of Java design patterns including testing patterns
 * [x] **Mediator**
 * [x] **Visitor**
 * [x] **State**
-* [ ] Chain of Responsibility _-waiting priority-_
+* [ ] Chain of Responsibility _-in progress-_
 * [ ] Command _-waiting priority-_
 * [ ] Interpreter _-waiting priority-_
 * [ ] Memento _-waiting priority-_
@@ -55,16 +55,14 @@ An understanding exists that objects will be blind to the expense of notificatio
 ## Iterator Design Pattern
 
 #### Purpose
-Iterator design pattern implements the logic for sequential access of a collection of data outside of the collection (aka an aggregate) itself. This decouples the iteration logic from the collection implementation.
-Defining an abstract inferface for an iterator makes it possible to have multiple ways of iterating the same collection. Lets say we have a collection representing a binary tree. We can then have multiple concrete implementations of the same iterator abstraction accessing the elements in the tree using different traversal logic like in-order, pre-order and post-order. The binary tree collection remains the same but using iterator pattern we access it in multiple ways without altering and/or directly accessing the binary tree implementation itself.
-Scenarios in which Iterator Pattern can be used:
-
-1. Collections's internal implementation is to be hidden
-2. Multiple ways of traversing the collection are possible
-3. Iteration logic is decoupled from the collection's internal structure
+Allows for access to the elements of an aggregate object  without allowing access to its underlying representation.
 
 #### Usage
 
+* Access to elements is needed without access to the entire   representation.
+* Multiple or concurrent traversals of the elements are needed.
+* A uniform interface for traversal is needed.
+* Subtle differences exist between the implementation details   of various iterators.
 
 ## Mediator Design Pattern
 
@@ -77,10 +75,14 @@ This pattern provides a mediator class which normally handles all the communicat
 ## Visitor Design Pattern
 
 #### Purpose
-In Visitor pattern, we use a visitor class which changes the executing algorithm of an element class. By this way, execution algorithm of element can vary as and when visitor varies. This pattern comes under behavior pattern category. As per the pattern, element object has to accept the visitor object so that visitor object handles the operation on the element object.
-
+Allows for one or more operations to be applied to a set of objects at runtime, decoupling the operations from the object structure.
 #### Usage
 
+* An object structure must have many unrelated operations   performed upon it.
+* The object structure can’t change but operations performed   on it can.
+* Operations must be performed on the concrete classes of an   object structure.
+* Exposing internal state or operations of the object structure   is acceptable.
+* Operations should be able to operate on multiple object   structures that implement the same interface sets.
 
 ## State Design Pattern
 
@@ -97,25 +99,26 @@ Ties object circumstances to its behavior, allowing the object to behave in diff
 ## Composite Design Pattern
 
 #### Purpose
-Composite pattern is used where we need to treat a group of objects in similar way as a single object. Composite pattern composes objects in term of a tree structure to represent part as well as whole hierarchy. This type of design pattern comes under structural pattern as this pattern creates a tree structure of group of objects.
-
-This pattern creates a class that contains group of its own objects. This class provides ways to modify its group of same objects.
+Facilitates the creation of object hierarchies where each object can be treated independently or as a set of nested objects through the same interface.
 
 #### Usage
 
-
+* Hierarchical representations of objects are needed.
+* Objects and compositions of objects should be treated uniformly.
 
 # Creational Patterns
 
 ## Builder Design Pattern
 
 #### Purpose
-Builder pattern builds a complex object using simple objects and using a step by step approach. This type of design pattern comes under creational pattern as this pattern provides one of the best ways to create an object.
-
-A Builder class builds the final object step by step. This builder is independent of other objects.
+Allows for the dynamic creation of objects based upon easily interchangeable algorithms.
 
 #### Usage
 
+* Object creation algorithms should be decoupled from the system.
+* Multiple representations of creation algorithms are required.
+* The addition of new creation functionality without changing the core code is necessary.
+* Runtime control over the creation process is required.
 
 ## Singleton Design Pattern
 
