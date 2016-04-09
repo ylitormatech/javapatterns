@@ -15,7 +15,7 @@ Demo of Java design patterns including testing patterns
 * [x] **Interpreter**
 * [x] **Memento**
 * [x] **Strategy**
-* [ ] Template Method _-in progress-_
+* [x] **Template Method**
 
 **Creational patterns**:
 
@@ -153,6 +153,18 @@ Defines a set of encapsulated algorithms that can be swapped to carry out a spec
 * Algorithms access or utilize data that calling code shouldn’t be exposed to.
 * The behavior of a class should be defined at runtime.
 * Conditional statements are complex and hard to maintain.
+
+## Template Method Design Pattern
+
+#### Purpose
+Identifies the framework of an algorithm, allowing implementing classes to define the actual behavior.
+
+#### Usage
+
+* A single abstract implementation of an algorithm is needed.
+* Common behavior among subclasses should be localized to a common class.
+* Parent classes should be able to uniformly invoke behavior in their subclasses.
+* Most or all subclasses need to implement the behavior.
 
 ## Composite Design Pattern
 
