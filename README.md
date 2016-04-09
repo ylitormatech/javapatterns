@@ -36,7 +36,7 @@ Demo of Java design patterns including testing patterns
 * [ ] Proxy _-waiting priority-_
 
 
-
+# Behavioral Patterns
 
 ## Observable Design Pattern
 
@@ -90,6 +90,15 @@ We are demonstrating mediator pattern by example of a chat room where multiple u
 
 MediatorPatternDemo, our demo class, will use User objects to show communication between them.
 
+## Visitor Design Pattern
+
+#### Purpose
+In Visitor pattern, we use a visitor class which changes the executing algorithm of an element class. By this way, execution algorithm of element can vary as and when visitor varies. This pattern comes under behavior pattern category. As per the pattern, element object has to accept the visitor object so that visitor object handles the operation on the element object.
+
+#### Usage
+
+#### Example
+
 ## State Design Pattern
 
 #### Purpose
@@ -114,14 +123,8 @@ This pattern creates a class that contains group of its own objects. This class 
 
 #### Example
 
-## Visitor Design Pattern
 
-#### Purpose
-In Visitor pattern, we use a visitor class which changes the executing algorithm of an element class. By this way, execution algorithm of element can vary as and when visitor varies. This pattern comes under behavior pattern category. As per the pattern, element object has to accept the visitor object so that visitor object handles the operation on the element object.
-
-#### Usage
-
-#### Example
+# Creational Patterns
 
 ## Builder Design Pattern
 
@@ -134,4 +137,5 @@ A Builder class builds the final object step by step. This builder is independen
 
 #### Example
 
+# Structural Patterns
 

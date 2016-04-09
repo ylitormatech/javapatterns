@@ -5,11 +5,11 @@
  */
 package javapatterns;
 
-import javapatterns.behavioral.builder.BuilderPatternDemo;
+import javapatterns.creational.builder.BuilderPatternDemo;
 import javapatterns.structural.composite.CompositePatternDemo;
-import javapatterns.creational.iterator.IteratorPatternDemo;
-import javapatterns.creational.mediator.MediatorPatternDemo;
-import javapatterns.creational.observable.ObservablePatternDemo;
+import javapatterns.behavioral.iterator.IteratorPatternDemo;
+import javapatterns.behavioral.mediator.MediatorPatternDemo;
+import javapatterns.behavioral.observer.ObservablePatternDemo;
 import javapatterns.creational.visitor.VisitorPatternDemo;
 
 /**
