@@ -14,7 +14,7 @@ Demo of Java design patterns including testing patterns
 * [x] **Command**
 * [x] **Interpreter**
 * [x] **Memento**
-* [ ] Strategy _-waiting priority-_
+* [ ] Strategy _-in progress-_
 * [ ] Template Method _-waiting priority-_
 
 **Creational patterns**:
