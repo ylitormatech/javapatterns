@@ -34,7 +34,7 @@ Demo of Java design patterns including testing patterns
 * [x] **Decorator**
 * [x] **Facade**
 * [x] **Flyweight**
-* [ ] Proxy _-in progress-_
+* [x] **Proxy**
 
 
 # Behavioral Patterns
@@ -294,5 +294,11 @@ Flyweight pattern is primarily used to reduce the number of objects created and 
 ## Proxy Design Pattern
 
 #### Purpose
-
+Allows for object level access control by acting as a pass through entity or a placeholder object.
 #### Usage
+
+* The object being represented is external to the system.
+* Objects need to be created on demand.
+* Access control for the original object is required.
+* Added functionality is required when an object is accessed.
+
