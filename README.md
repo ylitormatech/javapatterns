@@ -33,7 +33,7 @@ Demo of Java design patterns including testing patterns
 * [x] **Bridge**
 * [x] **Decorator**
 * [x] **Facade**
-* [ ] Flyweight _-in progress-_
+* [x] **Flyweight**
 * [ ] Proxy _-waiting priority-_
 
 
@@ -282,8 +282,14 @@ Supplies a single interface to a set of interfaces within a system.
 ## Flyweight Design Pattern
 
 #### Purpose
-
+Facilitates the reuse of many fine grained objects, making the utilization of large numbers of objects more efficient.
+Flyweight pattern is primarily used to reduce the number of objects created and to decrease memory footprint and increase performance.
 #### Usage
+
+* Many like objects are used and storage cost is high.
+* The majority of each object’s state can be made extrinsic.
+* A few shared objects can replace many unshared ones.
+* The identity of each object does not matter.
 
 ## Proxy Design Pattern
 
