@@ -1,7 +1,16 @@
-# javapatterns
+# Description
 
 
 Demo of Java design patterns including testing patterns
+
+# Installation
+
+```
+git clone https://github.com/ylitormatech/javapatterns
+cd javapatterns
+```
+
+# Design Patterns
 
 **Behavioral patterns**:
 

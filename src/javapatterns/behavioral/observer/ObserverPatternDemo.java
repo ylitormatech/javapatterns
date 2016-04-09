@@ -3,9 +3,9 @@ package javapatterns.behavioral.observer;
 /**
  * Created by marco on 01/04/16.
  */
-public class ObservablePatternDemo {
+public class ObserverPatternDemo {
 
-    public ObservablePatternDemo() {
+    public ObserverPatternDemo() {
 
         System.out.println("\n### Observable demo\n");
         System.out.println("Luodaan sininen auto. Autoa ei ole varastossa. ");
@@ -20,7 +20,7 @@ public class ObservablePatternDemo {
     }
 
     public static void main(String[] args) {
-        new ObservablePatternDemo();
+        new ObserverPatternDemo();
     }
 
 }
