@@ -32,7 +32,7 @@ Demo of Java design patterns including testing patterns
 * [x] **Adapter**
 * [x] **Bridge**
 * [x] **Decorator**
-* [ ] Facade _-in progress_
+* [x] **Facade**
 * [ ] Flyweight _-waiting priority-_
 * [ ] Proxy _-waiting priority-_
 
@@ -272,8 +272,12 @@ Allows for the dynamic wrapping of objects in order to modify their existing res
 ## Facade Design Pattern
 
 #### Purpose
-
+Supplies a single interface to a set of interfaces within a system.
 #### Usage
+
+* A simple interface is needed to provide access to a complex  system.
+* There are many dependencies between system implementations and clients.
+* Systems and subsystems should be layered.
 
 ## Flyweight Design Pattern
 

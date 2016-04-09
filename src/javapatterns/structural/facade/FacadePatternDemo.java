@@ -7,7 +7,11 @@ public class FacadePatternDemo {
 
     public FacadePatternDemo() {
         System.out.println("\n### Facade Pattern demo\n");
-        System.out.println("NOT IMPLEMENTED!!!");
+        ShapeMaker shapeMaker = new ShapeMaker();
+
+        shapeMaker.drawCircle();
+        shapeMaker.drawRectangle();
+        shapeMaker.drawSquare();
 
         System.out.println("\n### \n");
 
