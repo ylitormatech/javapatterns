@@ -22,7 +22,7 @@ Demo of Java design patterns including testing patterns
 * [x] **Builder**
 * [x] **Singleton**
 * [x] **Abstract Factory**
-* [ ] Factory Method _-in progress-_
+* [x] **Factory Method**
 * [ ] Prototype _-waiting priority-_
 
 
@@ -209,6 +209,16 @@ Provide an interface that delegates creation calls to one or more concrete class
 * Families of objects must be used together.
 * Libraries must be published without exposing implementation details.
 * Concrete classes should be decoupled from clients.
+
+## Factory Design Pattern
+
+#### Purpose
+Exposes a method for creating objects, allowing subclasses to control the actual creation process.
+#### Usage
+
+* A class will not know what classes it will be required to create.
+* Subclasses may specify what objects should be created.
+* Parent classes wish to defer creation to their subclasses.
 
 # Structural Patterns
 
