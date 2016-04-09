@@ -33,7 +33,7 @@ Demo of Java design patterns including testing patterns
 * [x] **Bridge**
 * [x] **Decorator**
 * [x] **Facade**
-* [ ] Flyweight _-waiting priority-_
+* [ ] Flyweight _-in progress-_
 * [ ] Proxy _-waiting priority-_
 
 
