@@ -32,7 +32,7 @@ Demo of Java design patterns including testing patterns
 * [x] **Adapter**
 * [x] **Bridge**
 * [x] **Decorator**
-* [ ] Facade _-waiting priority-_
+* [ ] Facade _-in progress_
 * [ ] Flyweight _-waiting priority-_
 * [ ] Proxy _-waiting priority-_
 
