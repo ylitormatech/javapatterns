@@ -30,7 +30,7 @@ Demo of Java design patterns including testing patterns
 
 * [x] **Composite**
 * [x] **Adapter**
-* [ ] Bridge _-in progress-_
+* [x] **Bridge**
 * [ ] Decorator _-waiting priority-_
 * [ ] Facade _-waiting priority-_
 * [ ] Flyweight _-waiting priority-_
@@ -249,8 +249,13 @@ Adapter pattern works as a bridge between two incompatible interfaces.
 ## Bridge Design Pattern
 
 #### Purpose
-
+Defines an abstract object structure independently of the implementation object structure in order to limit coupling.
 #### Usage
+
+* Abstractions and implementations should not be bound at compile time.
+* Abstractions and implementations should be independently extensible.
+* Changes in the implementation of an abstraction should have no impact on clients.
+* Implementation details should be hidden from the client.
 
 ## Decorator Design Pattern
 
