@@ -23,7 +23,7 @@ Demo of Java design patterns including testing patterns
 * [x] **Singleton**
 * [x] **Abstract Factory**
 * [x] **Factory Method**
-* [ ] Prototype _-in progress-_
+* [x] **Prototype**
 
 
 **Structural patterns**:
@@ -219,6 +219,18 @@ Exposes a method for creating objects, allowing subclasses to control the actual
 * A class will not know what classes it will be required to create.
 * Subclasses may specify what objects should be created.
 * Parent classes wish to defer creation to their subclasses.
+
+## Prototype Design Pattern
+
+#### Purpose
+Create objects based upon a template of an existing objects through cloning.
+#### Usage
+
+* Composition, creation, and representation of objects should be decoupled from a system.
+* Classes to be created are specified at runtime.
+* A limited number of state combinations exist in an object.
+* Objects or object structures are required that are identical or closely resemble other existing objects or object structures.
+* The initial creation of each object is an expensive operation.
 
 # Structural Patterns
 
