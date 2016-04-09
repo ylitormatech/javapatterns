@@ -12,7 +12,7 @@ Demo of Java design patterns including testing patterns
 * [x] **State**
 * [x] **Chain of Responsibility**
 * [x] **Command**
-* [ ] Interpreter _-waiting priority-_
+* [ ] Interpreter _-in progress-_
 * [ ] Memento _-waiting priority-_
 * [ ] Strategy _-waiting priority-_
 * [ ] Template Method _-waiting priority-_
