@@ -23,7 +23,7 @@ Demo of Java design patterns including testing patterns
 * [x] **Singleton**
 * [x] **Abstract Factory**
 * [x] **Factory Method**
-* [ ] Prototype _-waiting priority-_
+* [ ] Prototype _-in progress-_
 
 
 **Structural patterns**:
