@@ -13,7 +13,7 @@ Demo of Java design patterns including testing patterns
 * [x] **Chain of Responsibility**
 * [x] **Command**
 * [x] **Interpreter**
-* [ ] Memento _-in progress-_
+* [x] **Memento**
 * [ ] Strategy _-waiting priority-_
 * [ ] Template Method _-waiting priority-_
 
@@ -129,6 +129,17 @@ Defines a representation for a grammar as well as a mechanism to understand and 
 * The grammar is simple.
 * Efficiency is not important.
 * Decoupling grammar from underlying expressions is desired.
+
+## Memento Design Pattern
+
+#### Purpose
+Allows for capturing and externalizing an object’s internal state so that it can be restored later, all without violating encapsulation.
+
+#### Usage
+
+* The internal state of an object must be saved and restored at a later time.
+* Internal state cannot be exposed by interfaces without exposing implementation.
+* Encapsulation boundaries must be preserved.
 
 ## Composite Design Pattern
 
