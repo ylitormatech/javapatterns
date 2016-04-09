@@ -29,7 +29,7 @@ Demo of Java design patterns including testing patterns
 **Structural patterns**:
 
 * [x] **Composite**
-* [ ] Adapter _-waiting priority-_
+* [ ] Adapter _-in progress-_
 * [ ] Bridge _-waiting priority-_
 * [ ] Decorator _-waiting priority-_
 * [ ] Facade _-waiting priority-_
