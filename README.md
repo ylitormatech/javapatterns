@@ -12,7 +12,7 @@ Demo of Java design patterns including testing patterns
 * [x] **State**
 * [x] **Chain of Responsibility**
 * [x] **Command**
-* [ ] Interpreter _-in progress-_
+* [x] **Interpreter**
 * [ ] Memento _-waiting priority-_
 * [ ] Strategy _-waiting priority-_
 * [ ] Template Method _-waiting priority-_
@@ -117,6 +117,18 @@ Encapsulates a request allowing it to be treated as an object. This allows the r
 * Requests need to be handled at variant times or in variant orders.
 * A history of requests is needed.
 * The invoker should be decoupled from the object handling the invocation.
+
+## Interpreter Design Pattern
+
+#### Purpose
+Defines a representation for a grammar as well as a mechanism to understand and act upon the grammar.
+
+#### Usage
+
+* There is grammar to interpret that can be represented as large syntax trees.
+* The grammar is simple.
+* Efficiency is not important.
+* Decoupling grammar from underlying expressions is desired.
 
 ## Composite Design Pattern
 
