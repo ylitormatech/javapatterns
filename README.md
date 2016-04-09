@@ -95,6 +95,17 @@ Ties object circumstances to its behavior, allowing the object to behave in diff
 * Complex conditions tie object behavior to its state.
 * Transitions between states need to be explicit.
 
+## Chain of Responsibility Design Pattern
+
+#### Purpose
+Gives more than one object an opportunity to handle a request by linking receiving objects together.
+#### Usage
+
+* Multiple objects may handle a request and the handler doesn’t have to be a specific object.
+* A set of objects should be able to handle a request with the handler determined at runtime.
+* A request not being handled is an acceptable potential outcome.
+
+
 
 ## Composite Design Pattern
 
