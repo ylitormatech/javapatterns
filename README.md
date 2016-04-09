@@ -11,7 +11,7 @@ Demo of Java design patterns including testing patterns
 * [x] **Visitor**
 * [x] **State**
 * [x] **Chain of Responsibility**
-* [ ] Command _-in progress-_
+* [x] **Command**
 * [ ] Interpreter _-waiting priority-_
 * [ ] Memento _-waiting priority-_
 * [ ] Strategy _-waiting priority-_
@@ -106,6 +106,17 @@ Gives more than one object an opportunity to handle a request by linking receivi
 * A request not being handled is an acceptable potential outcome.
 
 
+## Command Design Pattern
+
+#### Purpose
+Encapsulates a request allowing it to be treated as an object. This allows the request to be handled in traditionally object based relationships such as queuing and callbacks.
+
+#### Usage
+
+* You need callback functionality.
+* Requests need to be handled at variant times or in variant orders.
+* A history of requests is needed.
+* The invoker should be decoupled from the object handling the invocation.
 
 ## Composite Design Pattern
 
