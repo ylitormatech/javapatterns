@@ -29,7 +29,7 @@ Demo of Java design patterns including testing patterns
 **Structural patterns**:
 
 * [x] **Composite**
-* [ ] Adapter _-in progress-_
+* [x] **Adapter**
 * [ ] Bridge _-waiting priority-_
 * [ ] Decorator _-waiting priority-_
 * [ ] Facade _-waiting priority-_
@@ -234,3 +234,44 @@ Create objects based upon a template of an existing objects through cloning.
 
 # Structural Patterns
 
+## Adapter Design Pattern
+
+#### Purpose
+Permits classes with disparate interfaces to work together by creating a common object by which they may communicate and interact.
+
+Adapter pattern works as a bridge between two incompatible interfaces.
+#### Usage
+
+* A class to be used doesn’t meet interface requirements.
+* Complex conditions tie object behavior to its state.
+* Transitions between states need to be explicit.
+
+## Bridge Design Pattern
+
+#### Purpose
+
+#### Usage
+
+## Decorator Design Pattern
+
+#### Purpose
+
+#### Usage
+
+## Facade Design Pattern
+
+#### Purpose
+
+#### Usage
+
+## Flyweight Design Pattern
+
+#### Purpose
+
+#### Usage
+
+## Proxy Design Pattern
+
+#### Purpose
+
+#### Usage

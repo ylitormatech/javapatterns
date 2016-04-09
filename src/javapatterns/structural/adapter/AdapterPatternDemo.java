@@ -7,7 +7,12 @@ public class AdapterPatternDemo {
 
     public AdapterPatternDemo() {
         System.out.println("\n### Adapter Pattern demo\n");
-        System.out.println("NOT IMPLEMENTED!!!");
+        AudioPlayer audioPlayer = new AudioPlayer();
+
+        audioPlayer.play("mp3", "beyond the horizon.mp3");
+        audioPlayer.play("mp4", "alone.mp4");
+        audioPlayer.play("vlc", "far far away.vlc");
+        audioPlayer.play("avi", "mind me.avi");
 
         System.out.println("\n### \n");
 
