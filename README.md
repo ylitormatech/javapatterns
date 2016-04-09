@@ -21,7 +21,7 @@ Demo of Java design patterns including testing patterns
 
 * [x] **Builder**
 * [x] **Singleton**
-* [ ] Abstract Factory _-in progress-_
+* [x] **Abstract Factory**
 * [ ] Factory Method _-waiting priority-_
 * [ ] Prototype _-waiting priority-_
 
@@ -198,6 +198,17 @@ Ensures that only one instance of a class is allowed within a system.
 * Exactly one instance of a class is required.
 * Controlled access to a single object is necessary.
 
+## Abstract Factory Design Pattern
+
+#### Purpose
+Provide an interface that delegates creation calls to one or more concrete classes in order to deliver specific objects.
+#### Usage
+
+* The creation of objects should be independent of the system utilizing them.
+* Systems should be capable of using multiple families of objects.
+* Families of objects must be used together.
+* Libraries must be published without exposing implementation details.
+* Concrete classes should be decoupled from clients.
 
 # Structural Patterns
 
